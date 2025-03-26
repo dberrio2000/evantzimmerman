@@ -9,4 +9,4 @@ Evan Zimmerman's Website
     This website was published using Cloudflare, hosted using a Cloudflare domain.
     It is a resume-styled website with mostly custom built HTML and CSS. This was built
     for an aspiring theatre professional looking to showcase and market himself. Please
-    see the live site for any and all current updates (which may have not been yet pushed to the reposity).
+    see the live site for any and all current updates (which may have not been yet pushed to the repository).
