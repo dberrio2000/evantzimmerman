@@ -1,7 +1,7 @@
 # published-websites
 A repository of my created websites.
 
-Please keep in mind that these are "as is" files uploaded per each update to the respective websites. For any up-to-date changes, please visit the below links to see the sites published live:
+For any up-to-date changes, please visit the below links to see the sites published live:
 
 Evan Zimmerman's Website
   – Live URL: www.evantzimmerman.com
