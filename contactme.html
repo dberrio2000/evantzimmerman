@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Evan Zimmerman</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="evantzimmerman.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Diplomata&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Diplomata&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<!-- Download Button Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class = "header">
+                <div class = "navBox">
+                    <div class="topnav">
+                        <a href="index.html">Home</a>
+                        <p class = "nav-divider">|</p>
+                        <a href="aboutme.html">About Me</a>
+                        <p class = "nav-divider">|</p>
+                        <a href="headshots&resume.html">Headshot/Resume</a>
+                        <p class = "nav-divider">|</p>
+                        <a href="gallery.html">Gallery</a>
+                        <p class = "nav-divider">|</p>
+                        <!-- <a href="media.html">Media</a>
+                        <p class = "nav-divider">|</p> -->
+                        <a class = "active" href="contactme.html">Contact Me</a>
+                    </div>
+                </div>
+                <div>
+            <h1 class = "pageTitle">Contact Me</h1>
+                </div>
+                <div class = "socials">
+                    <a href="https://facebook.com/evanzimmerman99" class="fa fa-facebook" target = "_blank" rel="noopener"></a>
+                    <a href="https://www.instagram.com/evanzimmerman99/" class="fa fa-instagram" target = "_blank" rel="noopener"></a>
+                    <a href="https://www.youtube.com/@evanzimmerman99" class="fa fa-youtube" target = "_blank" rel="noopener"></a>
+                </div> 
+            </div>
+        </header>
+            <div class = "contactme-content">
+                <div>
+                    <div class="upcomingProjects-container">
+                        <p class="upcomingProjects-text">Upcoming <br> Projects</p>
+                        <div class = "upcomingProject-images">
+                            <img class ="headshots-download-images" src="Jesus_Christ_Superstar.png" alt="Jesus Christ Superstar Show"/>
+                            <img class ="headshots-download-images" src="Hunchback.png" alt="Hunchback of Notre Dame"/>
+                            <img class ="headshots-download-images" src="coming_soon.png" alt="Coming Soon"/>
+                        <div style = "text-align: center;">
+                            <a href="https://www.workhousearts.org/calendar/jesus-christ-superstar?gad_source=1&gclid=Cj0KCQjwhYS_BhD2ARIsAJTMMQYNDkkG1bWd_SXyi4ymKWXmxXXEid1ys8lfdd2amGjwfok9v33dqksaAsOhEALw_wcB" target = "_blank" rel="noopener"><button class="btn"><i class="headshot-button"></i>Get Tickets Here!</button></a>
+                        </div>
+                        <div style = "text-align: center;">
+                            <a href="https://www.fairfaxcitytheatre.org/current-season/the-hunchback-of-notre-dame" target = "_blank" rel="noopener"><button class="btn"><i class="headshot-button"></i>Get Tickets Here!</button></a>
+                        </div>
+                        <div style = "text-align: center;">
+                            <a href="" target = "_blank" rel="noopener"><button class="btn" disabled><i class="headshot-button"></i>Get Tickets Here!</button></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class = "hr_hidden_contact" style = "margin-bottom: 4vw; margin-top: 4vw; width: 60vw; border-top: 8px solid rgba(122, 35, 35, 1);
+    border-radius: 5px;">
+                <div class="home-contact">
+                        <div>
+                            <h2>Contact Me</h2>
+                            <hr class ="hr_hidden_contact">
+                            <br>
+                            <form action="https://api.web3forms.com/submit" method="POST">
+
+                            <!-- Replace with your Access Key -->
+                            <input type="hidden" name="access_key" value="f70604b4-bcf4-4c97-b935-f172095ec64a">
+
+                            <!-- Form Inputs. Each input must have a name="" attribute -->
+                            <p class = "contact-text">Name</p>
+                            <br>
+                            <input type="text" name="name" required>
+                            <br>
+                            <br>
+                            <p class = "contact-text">Email</p>
+                            <br>
+                            <input type="email" name="email" required>
+                            <br>
+                            <br>
+                            <p class = "contact-text">Message</p>
+                            <br>
+                            <textarea name="message" required></textarea>
+                            <br>
+                            <br>
+
+                            <!-- Honeypot Spam Protection -->
+                            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                            <!-- Custom Confirmation / Success Page -->
+                            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+                            <button class ="submit-contact" type="submit">Send</button>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+               
+        <div class ="footer">
+            <div>
+                <p>This website is a property of Evan Zimmerman. Any use of the website outside of permissions granted by the owner is strictly prohibited.</p>
+                <div class = "socials-footer">
+                    <a href="https://facebook.com/evanzimmerman99" class="fa fa-facebook" target = "_blank" rel="noopener"></a>
+                    <a href="https://www.instagram.com/evanzimmerman99/" class="fa fa-instagram" target = "_blank" rel="noopener"></a>
+                    <a href="https://www.youtube.com/@evanzimmerman99" class="fa fa-youtube" target = "_blank" rel="noopener"></a>
+                </div> 
+            </div>
+        </div>
+    </body>
+</html>
